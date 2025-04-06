@@ -148,7 +148,7 @@ Transform:
   m_GameObject: {fileID: 125595090}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.673, y: 0.3, z: -0.078415215}
+  m_LocalPosition: {x: 8.64, y: 0.3, z: -0.078415215}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -232,7 +232,7 @@ Transform:
   m_GameObject: {fileID: 170185068}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.69, y: 0.3, z: -0.078415215}
+  m_LocalPosition: {x: 6.6570005, y: 0.3, z: -0.078415215}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -368,7 +368,7 @@ Transform:
   m_GameObject: {fileID: 426189912}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.57, y: -0.77, z: 0}
+  m_LocalPosition: {x: 3.33, y: 0.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -400,7 +400,7 @@ Transform:
   m_GameObject: {fileID: 505737356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.68, y: 0.3, z: -0.078415215}
+  m_LocalPosition: {x: 7.6470003, y: 0.3, z: -0.078415215}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -484,7 +484,7 @@ Transform:
   m_GameObject: {fileID: 621545944}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.69, y: 0.3, z: -0.078415215}
+  m_LocalPosition: {x: 1.9770005, y: -0.03, z: -0.078415215}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -568,7 +568,7 @@ Transform:
   m_GameObject: {fileID: 870020331}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.68, y: 0.3, z: -0.078415215}
+  m_LocalPosition: {x: 2.967, y: -0.030000001, z: -0.078415215}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -744,7 +744,7 @@ Transform:
   m_GameObject: {fileID: 1051867008}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.673, y: 0.3, z: -0.078415215}
+  m_LocalPosition: {x: 3.96, y: -0.030000001, z: -0.078415215}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -820,7 +820,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1217834785
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -882,7 +882,7 @@ Transform:
   m_GameObject: {fileID: 1217834784}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.52, y: 0.74, z: 0}
+  m_LocalPosition: {x: -8.192999, y: 3.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -930,7 +930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":362.4,"y":232.8},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"0"},{"_position":{"x":232.0,"y":303.2},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"1"},{"_condition":{"player":{"_value":1},"$type":"PlayerDetection"},"_position":{"x":-20.17395,"y":381.1776},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"2"},{"_action":{"redFlashObject":{"_value":2},"fadeDuration":1.0,"initialAlpha":1.0,"$type":"Detection_RED"},"_position":{"x":125.693,"y":381.7115},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"_action":{"wallObject":{"_name":"Wall
+  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":362.4,"y":232.8},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"0"},{"_position":{"x":232.0,"y":303.2},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"1"},{"_condition":{"player":{"_value":1},"detectionRadius":3.0,"$type":"PlayerDetection"},"_position":{"x":-20.17395,"y":381.1776},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"2"},{"_action":{"redFlashObject":{"_value":2},"fadeDuration":1.0,"initialAlpha":1.0,"$type":"Detection_RED"},"_position":{"x":125.693,"y":381.7115},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"_action":{"wallObject":{"_name":"Wall
     Object","_targetVariableID":"68a54ecd-a8a5-4c8d-b298-7c475d079a9f"},"originalPosition":{"_name":"OgPosition","_targetVariableID":"0e65cbaf-8ad2-4711-96f2-0bac504dc7ce"},"$type":"MoveVertical"},"_position":{"x":246.2274,"y":381.9786},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"4"},{"_action":{"wallObject":{"_name":"Wall
     Object","_targetVariableID":"68a54ecd-a8a5-4c8d-b298-7c475d079a9f"},"originalPosition":{"_name":"OgPosition","_targetVariableID":"0e65cbaf-8ad2-4711-96f2-0bac504dc7ce"},"$type":"ResetVertical"},"_position":{"x":370.21,"y":380.1834},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"5"},{"_position":{"x":498.1053,"y":303.2256},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"6"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
   _boundGraphObjectReferences:
@@ -976,7 +976,7 @@ Transform:
   m_GameObject: {fileID: 1324483640}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.4716783, y: -2.66, z: 0.078415215}
+  m_LocalPosition: {x: -5.6000004, y: -3.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1065,7 +1065,7 @@ Transform:
   m_GameObject: {fileID: 1608042981}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.67, y: -2.36, z: 0}
+  m_LocalPosition: {x: -8.3029995, y: -3.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1084,9 +1084,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentBlackboard: {fileID: 0}
-  _serializedBlackboard: '{"_variables":{}}'
-  _objectReferences: []
-  _serializedVariables: []
+  _serializedBlackboard: '{"_variables":{"Original Position":{"_value":{"y":-2.46},"_name":"Original
+    Position","_id":"88b7b1cf-867e-4fb0-85a4-24538b23bceb","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Vector3,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"Wall
+    Object":{"_value":1,"_name":"Wall Object","_id":"8c37b723-bdae-4e5c-baa5-411c4489b25a","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 1324483640}
+  _serializedVariables:
+  - _json: '{"_value":{"y":-2.46},"_name":"Original Position","_id":"88b7b1cf-867e-4fb0-85a4-24538b23bceb","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Vector3,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_value":1,"_name":"Wall Object","_id":"8c37b723-bdae-4e5c-baa5-411c4489b25a","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references:
+    - {fileID: 0}
+    - {fileID: 1324483640}
 --- !u!114 &1608042985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1100,11 +1114,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":292.0,"y":232.0},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"0"},{"_position":{"x":172.0011,"y":292.5338},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"1"},{"_condition":{"player":{"_value":1},"detectionOrigin":{"_value":2},"$type":"HoriPlayerDetection"},"_position":{"x":-31.20001,"y":366.4},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"2"},{"_action":{"PurpleFlashObject":{},"$type":"HoriSignifier"},"_position":{"x":137.6,"y":366.4},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"_position":{"x":276.0,"y":368.8},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"4"},{"_position":{"x":362.4,"y":371.2},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"5"},{"_position":{"x":397.6,"y":304.8},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"6"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":292.0,"y":232.0},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"0"},{"_position":{"x":172.0011,"y":292.5338},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"1"},{"_condition":{"player":{"_value":1},"detectionOrigin":{"_value":2},"detectionRadius":2.0,"$type":"HoriPlayerDetection"},"_position":{"x":-32.26656,"y":366.4},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"2"},{"_action":{"PurpleFlashObject":{"_value":3},"fadeDuration":0.4,"initialAlpha":1.0,"GreenDisplayTime":4.0,"$type":"HoriSignifier"},"_position":{"x":137.6,"y":366.4},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"_action":{"wallObject":{"_name":"Wall
+    Object","_targetVariableID":"8c37b723-bdae-4e5c-baa5-411c4489b25a"},"originalPosition":{"_name":"Original
+    Position","_targetVariableID":"88b7b1cf-867e-4fb0-85a4-24538b23bceb"},"$type":"horiMovementWall"},"_position":{"x":254.6692,"y":368.8},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"4"},{"_action":{"wallObject":{"_name":"Wall
+    Object","_targetVariableID":"8c37b723-bdae-4e5c-baa5-411c4489b25a"},"originalPosition":{"_name":"Original
+    Position","_targetVariableID":"88b7b1cf-867e-4fb0-85a4-24538b23bceb"},"$type":"HoriResetWall"},"_position":{"x":415.7271,"y":370.1335},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"5"},{"_position":{"x":397.6,"y":304.8},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"6"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
   _boundGraphObjectReferences:
   - {fileID: 0}
   - {fileID: 426189912}
   - {fileID: 1324483640}
+  - {fileID: 1608042981}
   _boundGraphSource:
     _version: 3.31
     _category: 
@@ -1144,7 +1163,7 @@ Transform:
   m_GameObject: {fileID: 2061030301}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.4716783, y: 0.7430968, z: 0.078415215}
+  m_LocalPosition: {x: -10.111678, y: 3.5730968, z: 0.078415215}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

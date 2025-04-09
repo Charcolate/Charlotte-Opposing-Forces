@@ -6,28 +6,81 @@ using UnityEngine;
 
 public class IconSignifier : ActionTask
 {
-    public BBParameter<GameObject> Icon;
-    public BBParameter<float> duration = 2f;
+    public GameObject signPrefab; // Now this should be a prefab, not a scene instance
+    public Transform player;
+    public float distance = 10f;
+    public float timelimit = 1f;
+    public Vector2 signOffset = new Vector2(0, 1f); // Offset above the agent
+
+    private GameObject signInstance; // The actual instance we'll show/hide
+    private float timer;
+
+    protected override string OnInit()
+    {
+        // Create the sign instance from the prefab but keep it inactive initially
+        if (signPrefab != null)
+        {
+            signInstance = GameObject.Instantiate(signPrefab);
+            signInstance.transform.SetParent(null); // Ensure it's not a child of anything
+            signInstance.SetActive(false);
+        }
+        return null;
+    }
 
     protected override void OnExecute()
     {
-        if (Icon.value != null)
+        timer = 0;
+        // Position the sign relative to the agent when action starts
+        if (signInstance != null)
         {
-            Icon.value.SetActive(true);
-            StartCoroutine(HideAfterSeconds());
+            signInstance.transform.position = (Vector2)agent.transform.position + signOffset;
+        }
+    }
+
+    protected override void OnUpdate()
+    {
+        if (signInstance == null || player == null)
+        {
+            EndAction(false);
+            return;
+        }
+
+        if (Vector2.Distance(player.position, agent.transform.position) < distance)
+        {
+            // Keep updating position in case agent moves
+            signInstance.transform.position = (Vector2)agent.transform.position + signOffset;
+            signInstance.SetActive(true);
+
+            timer += Time.deltaTime;
+            if (timer >= timelimit)
+            {
+                signInstance.SetActive(false);
+                EndAction(true);
+            }
         }
         else
         {
-            Debug.LogWarning("Icon is not assigned.");
-            EndAction(false);
+            // Hide if player moves away
+            signInstance.SetActive(false);
         }
     }
 
-    private IEnumerator HideAfterSeconds()
+    protected override void OnStop()
     {
-        yield return new WaitForSeconds(duration.value);
-        Icon.value.SetActive(false);
-        EndAction(true);
+        // Hide sign when action stops
+        if (signInstance != null)
+        {
+            signInstance.SetActive(false);
+        }
     }
 
+    protected override void OnPause()
+    {
+        // Hide sign when action pauses
+        if (signInstance != null)
+        {
+            signInstance.SetActive(false);
+        }
+
+    }
 }

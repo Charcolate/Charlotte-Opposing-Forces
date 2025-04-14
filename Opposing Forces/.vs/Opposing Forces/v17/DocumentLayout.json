@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1591D909-60AF-1BDC-96AD-23465BBE6616}|Assembly-CSharp.csproj|c:\\users\\fungcha\\documents\\github\\charlotte-opposing-forces\\opposing forces\\assets\\scripts\\oppcollision\\activateallwalls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1591D909-60AF-1BDC-96AD-23465BBE6616}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\oppcollision\\activateallwalls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1591D909-60AF-1BDC-96AD-23465BBE6616}|Assembly-CSharp.csproj|c:\\users\\fungcha\\documents\\github\\charlotte-opposing-forces\\opposing forces\\assets\\scripts\\purplewall\\horiresetwall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1591D909-60AF-1BDC-96AD-23465BBE6616}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\purplewall\\horiresetwall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1591D909-60AF-1BDC-96AD-23465BBE6616}|Assembly-CSharp.csproj|c:\\users\\fungcha\\documents\\github\\charlotte-opposing-forces\\opposing forces\\assets\\scripts\\redwall\\movevertical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1591D909-60AF-1BDC-96AD-23465BBE6616}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\redwall\\movevertical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1591D909-60AF-1BDC-96AD-23465BBE6616}|Assembly-CSharp.csproj|c:\\users\\fungcha\\documents\\github\\charlotte-opposing-forces\\opposing forces\\assets\\scripts\\oppcollision\\activation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1591D909-60AF-1BDC-96AD-23465BBE6616}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\oppcollision\\activation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1591D909-60AF-1BDC-96AD-23465BBE6616}|Assembly-CSharp.csproj|c:\\users\\fungcha\\documents\\github\\charlotte-opposing-forces\\opposing forces\\assets\\scripts\\oppcollision\\destroybothy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1591D909-60AF-1BDC-96AD-23465BBE6616}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\oppcollision\\destroybothy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoveVertical.cs",
+              "DocumentMoniker": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\Assets\\Scripts\\RedWall\\MoveVertical.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RedWall\\MoveVertical.cs",
+              "ToolTip": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\Assets\\Scripts\\RedWall\\MoveVertical.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RedWall\\MoveVertical.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:51:33.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HoriResetWall.cs",
+              "DocumentMoniker": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\Assets\\Scripts\\PurpleWall\\HoriResetWall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PurpleWall\\HoriResetWall.cs",
+              "ToolTip": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\Assets\\Scripts\\PurpleWall\\HoriResetWall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PurpleWall\\HoriResetWall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:51:30.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DestroyBothy.cs",
+              "DocumentMoniker": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\Assets\\Scripts\\OppCollision\\DestroyBothy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OppCollision\\DestroyBothy.cs",
+              "ToolTip": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\Assets\\Scripts\\OppCollision\\DestroyBothy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OppCollision\\DestroyBothy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:49:50.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Activation.cs",
+              "DocumentMoniker": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\Assets\\Scripts\\OppCollision\\Activation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OppCollision\\Activation.cs",
+              "ToolTip": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\Assets\\Scripts\\OppCollision\\Activation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OppCollision\\Activation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:49:47.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActivateAllWalls.cs",
+              "DocumentMoniker": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\Assets\\Scripts\\OppCollision\\ActivateAllWalls.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OppCollision\\ActivateAllWalls.cs",
+              "ToolTip": "C:\\Users\\fungcha\\Documents\\GitHub\\Charlotte-Opposing-Forces\\Opposing Forces\\Assets\\Scripts\\OppCollision\\ActivateAllWalls.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OppCollision\\ActivateAllWalls.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:47:09.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

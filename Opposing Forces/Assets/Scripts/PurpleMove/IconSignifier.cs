@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class IconSignifier : ActionTask
 {
-    public GameObject signPrefab; // Now this should be a prefab, not a scene instance
+    public GameObject signPrefab; 
     public Transform player;
     public float distance = 10f;
     public float timelimit = 1f;
